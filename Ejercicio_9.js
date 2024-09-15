@@ -5,7 +5,7 @@ let saludarFlecha = (nombre, idioma = 'es') => {
     }
 };
 console.log(saludarFlecha('Juan'));
-console.log(saludarFlecha('Anna', 'es'));
+console.log(saludarFlecha('Maria', 'es'));
 
 
 function saludar(nombre, idioma = 'es') {
@@ -15,4 +15,4 @@ function saludar(nombre, idioma = 'es') {
     }
 }
 console.log(saludar('Juan'));
-console.log(saludar('Anna', 'en'));
+console.log(saludar('Maria', 'en'));
